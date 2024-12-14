@@ -14,7 +14,6 @@ int main(){
     int number = (rand() % (100 - 1 + 1)) + 1;   
     int  hint;
     
-    cout << number << endl ;
     while(input != number){
         cout << "\nnumber of time guessed:" << attempt << endl;
         cout << "Guess the number: " ;
